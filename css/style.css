@@ -1,0 +1,36 @@
+/*! HTML5 Boilerplate v9.0.1 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  background-color: black;
+}
+
+.hero-banner {
+  position: relative;
+  display: inline-block;
+}
+
+.hero-banner img {
+  display: block;
+  height: auto;
+  width: 90vw;
+}
+
+.overlay-header-text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  font-size: 80px;
+  white-space: nowrap;
+}
